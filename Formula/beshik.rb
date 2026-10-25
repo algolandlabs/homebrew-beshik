@@ -1,31 +1,28 @@
-# Homebrew formula of beshik, filled in by `just release-snapshot` (tasks/M12.md, M12-T03): the
-# prebuilt archive of each platform, never the source. https://github.com/algolandlabs/beshik-release/releases/download/v0.1.0 is where the archives are downloaded
-# from, 0.1.0 the version, @SHA_<os>_<arch>@ their SHA-256 sums.
 class Beshik < Formula
   desc "Self-hosted single-server PaaS and its command-line client"
   homepage "https://github.com/algolandlabs/beshik-release"
-  version "0.1.0"
+  version "0.1.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.0/beshik_0.1.0_darwin_arm64.tar.gz"
-      sha256 "9602edc1145c4b73403a307823af8a1dcbd5e631e235b24ce2cce9a423d521b7"
+      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.1/beshik_0.1.1_darwin_arm64.tar.gz"
+      sha256 "aed18384a65e584e38a6b6d0aabe8b948d2d8983d3a8426035b3da6b1336f2be"
     end
     on_intel do
-      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.0/beshik_0.1.0_darwin_amd64.tar.gz"
-      sha256 "9c344a7e899ffc3f4df419e18e54e5ede48b1fe278a830f1fa32e629e30c8d11"
+      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.1/beshik_0.1.1_darwin_amd64.tar.gz"
+      sha256 "99202e98029fa452eec3a87c233eb6c6c925067f79755b1a64c960baf6866af9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.0/beshik_0.1.0_linux_arm64.tar.gz"
-      sha256 "6c16e07777331f6e3c4cd2c19d60d4ab0edbb9b0ab0860a45ddea573466f881f"
+      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.1/beshik_0.1.1_linux_arm64.tar.gz"
+      sha256 "a36f59c5b0b734b01f90298148dd01022850753fab12be5245f40656d70f2ee8"
     end
     on_intel do
-      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.0/beshik_0.1.0_linux_amd64.tar.gz"
-      sha256 "4b244867a0156d6b9cfcd3c6cbe2a674aa4b889d48a4d7a8d725f30049197d72"
+      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.1/beshik_0.1.1_linux_amd64.tar.gz"
+      sha256 "70f09b5284a76c6717498076b14f2b309b7b26d158b4833e3d0660c77c6b17e3"
     end
   end
 
