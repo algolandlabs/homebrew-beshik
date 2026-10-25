@@ -1,28 +1,28 @@
 class Beshik < Formula
   desc "Self-hosted single-server PaaS and its command-line client"
   homepage "https://github.com/algolandlabs/beshik-release"
-  version "0.1.1"
+  version "0.1.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.1/beshik_0.1.1_darwin_arm64.tar.gz"
-      sha256 "aed18384a65e584e38a6b6d0aabe8b948d2d8983d3a8426035b3da6b1336f2be"
+      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.2/beshik_0.1.2_darwin_arm64.tar.gz"
+      sha256 "c7e5d182e6d0d16052c6ccb48268b0efc5bf01e166de45f230f52ef33c8618a5"
     end
     on_intel do
-      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.1/beshik_0.1.1_darwin_amd64.tar.gz"
-      sha256 "99202e98029fa452eec3a87c233eb6c6c925067f79755b1a64c960baf6866af9"
+      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.2/beshik_0.1.2_darwin_amd64.tar.gz"
+      sha256 "69763e54d9c1bc8bf4453ef02cbf43a5e49df82732ee6ab86fef92458d49450d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.1/beshik_0.1.1_linux_arm64.tar.gz"
-      sha256 "a36f59c5b0b734b01f90298148dd01022850753fab12be5245f40656d70f2ee8"
+      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.2/beshik_0.1.2_linux_arm64.tar.gz"
+      sha256 "c6d3b28dc79d16d9db4ad153892059189d3e13761c5f39b0c2925475ab738bb8"
     end
     on_intel do
-      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.1/beshik_0.1.1_linux_amd64.tar.gz"
-      sha256 "70f09b5284a76c6717498076b14f2b309b7b26d158b4833e3d0660c77c6b17e3"
+      url "https://github.com/algolandlabs/beshik-release/releases/download/v0.1.2/beshik_0.1.2_linux_amd64.tar.gz"
+      sha256 "a00419a98302d6df7efb0daa780a365f6483145561c5747332b5ce614644ef66"
     end
   end
 
